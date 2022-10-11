@@ -8,7 +8,6 @@
 ## Built With
 
 - Major languages
-- Frameworks
 - Technologies used![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
