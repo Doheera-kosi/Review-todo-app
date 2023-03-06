@@ -1,3 +1,4 @@
+// Function to add, remove, and update
 import { saveLocal } from './crud.js';
 
 export function add(list) {

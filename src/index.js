@@ -22,6 +22,7 @@ const addList = () => {
     if (item.isCompleted) {
       taskElement.classList.add('completed');
     }
+
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.classList.add('task-check');
@@ -29,6 +30,7 @@ const addList = () => {
       task.status(item, list);
       addList();
     });
+
     checkbox.checked = item.isCompleted;
     taskElement.appendChild(checkbox);
     const taskText = document.createElement('input');
@@ -40,6 +42,7 @@ const addList = () => {
         task.saveLocal(list);
       }
     });
+
     taskElement.appendChild(taskText);
     const dragIcon = document.createElement('button');
     dragIcon.classList = 'far fa-trash-alt deleteBtn';
